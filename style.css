@@ -1,0 +1,85 @@
+/* fonts  */
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --color : #3A3A3A;
+    --primary-color : #E02C6D;
+    --white : white;
+}
+
+/* nav-bars */
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color);
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+body {
+    margin-left: 5.5rem;
+    margin-right: 5.5rem;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    font-size: 16px;
+}
+
+.nav-bars > ul{
+    display: flex;
+    /* width: 75%; */
+    justify-content: space-between;
+    gap: 2rem;
+    padding-right: 1rem;
+    font-weight: 600;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.nav-bars ul li a:hover {
+    background-color: var(--primary-color);
+    transition: 0.3s;
+    color: var(--white);
+}
+
+
